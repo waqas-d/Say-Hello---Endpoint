@@ -10,7 +10,7 @@ namespace Say_Hello___Endpoint.Controllers;
         [Route("GetHello/{usersName}")]
 
         public string GetHello(string usersName) {
-            return "Hello, " + usersName;
+            return "Hello, " + usersName + ".";
         }
 
     }
